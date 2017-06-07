@@ -11,8 +11,7 @@ services:
     restart: always
 
   spider:
-    build: porn
-    container_name: spider
+    build: .
     restart: always
     depends_on:
       - mongodb
